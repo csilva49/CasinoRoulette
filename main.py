@@ -62,7 +62,7 @@ def main():
                         if str(color_roulette) == 'green':
                             balance = balance + (bet*10)
                         else:
-                            balance + bet
+                            balance = balance + bet
                     else:
                         print("The roulette rolled " +
                               str(color_roulette) + ", you lost!")
